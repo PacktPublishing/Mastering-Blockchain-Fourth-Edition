@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/ethr/credential/v1"
+    ],
+    "id": "did:ethr:0x123456789abcdefghijklmnopqrstuvwxyz",
+    "authentication": [
+        {
+            "id": "did:ethr:0x123456789abcdefghijklmnopqrstuvwxyz#controller",
+            "type": "Secp256k1SignatureAuthentication2018",
+            "publicKey": "0x123456789abcdefghijklmnopqrstuvwxyz#controller",
+            "controller": "did:ethr:0x123456789abcdefghijklmnopqrstuvwxyz"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://www.w3.org/2018/credentials/examples/v1"
+    ],
+    "id": "https://example.com/credentials/123",
+    "type": [
+        "VerifiableCredential",
+        "DegreeCredential"
+    ],
+    "issuer": {
+        "id": "https://example.com/issuers/14",
+        "name": "Example University"
+    },
+    "issuanceDate": "2023-02-16T22:12:03Z",
+    "credentialSubject": {
+        "id": "did:example:123",
+        "degree": {
+            "type": "BachelorDegree",
+            "name": "Bachelor of Science in Computer Science",
+            "college": "College of Engineering and Applied Science",
+            "university": "Example University",
+            "degreeDate": "2022-05-15",
+            "degreeStatus": "awarded"
+        }
+    },
+    "proof": {
+        "type": "Ed25519Signature2018",
+        "created": "2023-02-16T22:12:03Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "https://example.com/issuers/14#key-1",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0pw88foZzKHJmP4x4m0F5m5ZOyP5WAGGbsS0L9CKiKjxI5_ZfE5i5y5q5vqBQ9XivnC5pwcbZi75jmZ1xou4Dw"
+    }
+}
