@@ -43,7 +43,7 @@ Mastering Blockchain, Fourth Edition, is the blockchain bible to equip you with 
 20. Decentralized Identity
 21. Decentralized Finance
 22. Blockchain Applications and What’s Next
-23. Alternative Blockchains 
+23. Alternative Blockchains [Online_Chapter](https://packt.link/OceZK)
 
 
 
